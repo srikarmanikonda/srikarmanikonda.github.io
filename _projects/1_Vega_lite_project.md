@@ -30,16 +30,3 @@ Plot 1: This interactive scatter plot visualizes each license’s duration over 
 Plot 2: This bar chart aggregates and displays the frequency of licenses for each category, with the x‑axis showing the license types and the y‑axis indicating the count of licenses within each category. By summarizing the distribution of license types, the chart shows which categories are most prevalent, highlighting potential areas where licensing is concentrated or more actively enforced. The visual simplicity makes it  effective and clearly show the display of each license category.
 
 
-
-```
-
-<!-- these are written in a combo of html and liquid --> 
-
-<div class="left">
-{% include elements/button.html link="{{ site.baseurl }}/assets/json/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
-</div>
-
